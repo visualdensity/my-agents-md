@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(jq *)",
+      "Bash(* -v)",
+      "Bash(* -version)",
+      "Bash(* --version)",
+      "Read(//usr/bin/**)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(./gradlew *)",
+      "Bash(/usr/bin/java *)",
+      "Read(//Users/*/Library/Java/**)",
+      "Read(//Users/*/.claude/hooks/**)",
+      "Read(//Users/*/.claude/plugins/**)",
+      "Read(//Library/Java/JavaVirtualMachines/**)",
+      "Read(//opt/homebrew/opt/**)"
+    ],
+    "deny": [
+      "Bash(git push *)"
+    ]
+  }
+}
