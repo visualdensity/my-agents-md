@@ -11,3 +11,4 @@ A collection of tools for agents, including:
  * [PostgreSQL Skills](https://github.com/neondatabase/postgres-skills)
  * [Mindrally Skills Repo](https://github.com/Mindrally/skills)
  * [MCPMarket Skills Repo](https://mcpmarket.com/tools/skills)
+ * [Matt Pocock Skills Repo](https://github.com/mattpocock/skills)
