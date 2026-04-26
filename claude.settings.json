@@ -1,6 +1,7 @@
 {
   "permissions": {
     "allow": [
+      "Bash(ls *)",
       "Bash(jq *)",
       "Bash(* -v)",
       "Bash(* -version)",
