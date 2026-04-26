@@ -1,11 +1,13 @@
 # AGENTS GUIDELINES
 
 ## IMPORTANT IMPERATIVES
+
 * Always [superpowers](https://github.com/obra/superpowers/tree/main) skills/plugin if available to brainstorm, plan, spec and execute the work.
 * Always write out and update work plans with its progress after each task is completed
 * Write idiomatic code — follow official style guides
 * Always adopt the same architectural structure and approach as the original code when modifying existing code
 * Always preserve the original code and the logic of the original code as much as possible
+* Only commit the files and lines that you have changed, and are directly related to the task at hand
 * NEVER `git push` any code to remote repository. Only perform local commits
 * Store all times in UTC, display in local timezone
 
