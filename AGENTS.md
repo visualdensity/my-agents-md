@@ -1,4 +1,4 @@
-# AGENTS GUIDELINES
+# AGENTS LLM CODING GUIDELINES
 
 ## IMPORTANT IMPERATIVES
 
@@ -10,6 +10,7 @@
 * Only commit the files and lines that you have changed, and are directly related to the task at hand
 * NEVER `git push` any code to remote repository. Only perform local commits
 * Store all times in UTC, display in local timezone
+- Each task must be buildable or shippable and testable independently
 
 [//]: # (Below is taken from https://github.com/visualdensity/andrej-karpathy-skills)
 
@@ -71,3 +72,8 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 ---
 
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
+
+
+---
+
+# Project Specific Notes
