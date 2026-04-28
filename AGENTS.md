@@ -8,9 +8,10 @@
 * Always adopt the same architectural structure and approach as the original code when modifying existing code
 * Always preserve the original code and the logic of the original code as much as possible
 * Only commit the files and lines that you have changed, and are directly related to the task at hand
+* Always commit changes per task, not per phase. Each commit should be a logical unit of work that can be reviewed and tested independently
 * NEVER `git push` any code to remote repository. Only perform local commits
 * Store all times in UTC, display in local timezone
-- Each task must be buildable or shippable and testable independently
+* Each task must be buildable or shippable and testable independently
 
 [//]: # (Below is taken from https://github.com/visualdensity/andrej-karpathy-skills)
 
