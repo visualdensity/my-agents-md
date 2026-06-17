@@ -2,17 +2,22 @@
 
 ## IMPORTANT IMPERATIVES
 
-* Always [superpowers](https://github.com/obra/superpowers/tree/main) skills or plugin if available to brainstorm, plan, spec and execute the work.
-* Each task should have clear success criteria and should be small - discrete units of work that can be completed and tested in isolation.
-* Always update work plans with its progress after each task is completed in the files
+* Always use [superpowers](https://github.com/obra/superpowers/tree/main) skills, plugin or framework when available to plan, spec and execute the work.
+* Always ask if work needs to be planned and written to a file with tasks for separate execution before starting.
 * Write idiomatic code — follow official style guides
 * Always adopt the same architectural structure and approach as the original code when modifying existing code
 * Always preserve the original code and the logic of the original code as much as possible
 * Only commit the files and lines that you have changed, and are directly related to the task at hand
-* Always commit changes per task, not per phase. Each commit should be a logical unit of work that can be reviewed and tested independently
 * NEVER `git push` any code to remote repository. Only perform local commits
 * Store all times in UTC, display in local timezone
+
+## PLANNING AND EXECUTION
+If a work needs to be first planned and written to a file with tasks for separate execution, then:
+* Each task should have clear success criteria and key technical specs and architectural details or directions.
+* Each task should be small - discrete units of work that can be completed and tested in isolation.
 * Each task must be buildable or shippable and testable independently
+* Always update work plans with its progress after each task is completed in the files
+* Only execute one task at a time and do not proceed to the next task without approval from the user
 
 [//]: # (Below is taken from https://github.com/visualdensity/andrej-karpathy-skills)
 
@@ -34,6 +39,7 @@ Before implementing:
 - No abstractions for single-use code.
 - No "flexibility" or "configurability" that wasn't requested.
 - No error handling for impossible scenarios.
+- Favour simplicity and readability over unnecessary brevity
 - If you write 200 lines and it could be 50, rewrite it.
 
 Ask yourself: "Would a senior engineer say this is overcomplicated?" If yes, simplify.
